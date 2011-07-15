@@ -1,5 +1,5 @@
 require 'dm-core'
-require 'datamapper/dm-infinispan-adapter'
+require 'torquebox/infinispan'
 
 class Beer
 
@@ -31,3 +31,5 @@ DataMapper.setup :default,
                  
 DataMapper::Model.raise_on_save_failure = true 
 DataMapper.finalize
+
+Beer.seed
