@@ -1,5 +1,5 @@
 require 'dm-core'
-require 'torquebox/infinispan'
+require 'torquebox-infinispan'
 
 class Beer
 
